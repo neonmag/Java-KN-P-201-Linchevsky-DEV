@@ -1,8 +1,9 @@
 package step.learning;
 
-import oop.OopDemo;
 import step.learning.basics.BasicsDemo;
 import step.learning.basics.FilesDemo;
+import step.learning.oop.OopDemo;
+
 public class App
 {
     public static void main( String[] args )
@@ -27,9 +28,10 @@ public class App
         //obj.run1();
         //obj.run2();
         //obj.HW();
-        OopDemo objOOP = new OopDemo();
-        objOOP.run();
-
+        OopDemo obj = new OopDemo();
+        //obj.run();
+        //obj.run();
+        obj.runDemo();
     }
 }
 /*
